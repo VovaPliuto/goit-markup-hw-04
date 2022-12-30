@@ -32,8 +32,8 @@ img {
   --cloud-color: #f4f4fd;
   --cornflower-color: #e7e9fc;
   --ocean-color: #404bbf;
-  --light-slate-color: #8E8F99;
-  --green-color: #31D0AA;
+  --light-slate-color: #8e8f99;
+  --green-color: #31d0aa;
 }
 
 body {
@@ -190,7 +190,6 @@ body {
 .address-item:hover,
 .address-item:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 .nav-address .nav-list + .nav-list {
@@ -348,7 +347,7 @@ body {
   display: flex;
 }
 
-.team-social-ref {
+.team-social-link {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -358,7 +357,8 @@ body {
   align-items: center;
 }
 
-.team-social-ref:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--ocean-color);
 }
 
@@ -379,8 +379,6 @@ body {
   margin-top: 72px;
   gap: 24px;
 }
-.customers-item {
-}
 
 .customers-link {
   display: flex;
@@ -388,18 +386,16 @@ body {
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 16px 32px;
   fill: var(--light-slate-color);
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   border-color: var(--ocean-color);
   fill: var(--ocean-color);
-}
-
-.customers-icon {
 }
 
 /* --- FOOTER --- */
@@ -450,14 +446,14 @@ body {
   margin-top: 16px;
 }
 
-.bgc-footter-icon { 
+.bgc-footter-icon {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.bgc-footter-icon:hover {
+.bgc-footter-icon:hover,
+.bgc-footter-icon:focus {
   background-color: var(--green-color);
 }
-
 
 /* --- PORTFOLIO --- */
 
@@ -501,9 +497,8 @@ body {
   background: var(--accent-color);
   color: var(--main-bg-color);
   border: 1px solid var(--cornflower-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-              0px 2px 1px rgba(0, 0, 0, 0.08), 
-              0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* --- PORTFOLIO CARDS --- */
@@ -535,7 +530,8 @@ body {
   color: var(--primary-text-color);
 }
 
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
